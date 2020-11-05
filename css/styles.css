@@ -2976,7 +2976,11 @@ fieldset:disabled a.btn {
 }
 
 .btn-padding {
-  padding-top: 4rem;
+  padding-top: 2rem;
+}
+
+.btn-padding-1 {
+  padding-top: 5rem;
 }
 
 input[type=submit].btn-block,
@@ -10067,7 +10071,7 @@ hr.light {
 }
 
 .page-section-2 {
-  padding: 4.75rem 0;
+  padding: 5.5rem 0;
 }
 
 .page-section-3 {
@@ -10197,6 +10201,10 @@ header.masthead h1 {
   background: #3f51b5;
   transition: opacity 0.25s ease;
   text-align: center;
+}
+
+.git-icon {
+  padding-top: 30px;
 }
 
 #headerPopup {
