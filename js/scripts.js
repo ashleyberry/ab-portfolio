@@ -1,4 +1,4 @@
-/*!
+    /*!
     * Start Bootstrap - Creative v6.0.3 (https://startbootstrap.com/themes/creative)
     * Copyright 2013-2020 Start Bootstrap
     * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
@@ -63,8 +63,9 @@
       preload: [0, 1]
     },
     image: {
-      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+      tError: '<iframe src="https://player.vimeo.com/video/474391880" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'
     }
   });
+
 
 })(jQuery); // End of use strict
