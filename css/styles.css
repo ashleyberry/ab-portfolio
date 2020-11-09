@@ -10070,8 +10070,12 @@ hr.light {
   padding: 8rem 0;
 }
 
-.page-section-2 {
-  padding: 5.5rem 0 0 0;
+.skills-section {
+  padding: 5.5rem 0;
+}
+
+.portfolio-section {
+  padding-top: 3rem;
 }
 
 .page-section-3 {
