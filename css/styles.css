@@ -10071,13 +10071,12 @@ hr.light {
 }
 
 .page-section-2 {
-  padding: 5.5rem 0;
+  padding: 5.5rem 0 0 0;
 }
 
 .page-section-3 {
   padding: 15rem 0;
 }
-
 
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
