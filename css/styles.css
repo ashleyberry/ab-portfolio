@@ -547,6 +547,8 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -626,7 +628,7 @@ pre code {
   position: relative;
   overflow: hidden;
   border-radius: 50%;
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
 }
@@ -10070,18 +10072,6 @@ hr.light {
   padding: 8rem 0;
 }
 
-.skills-section {
-  padding: 5.5rem 0;
-}
-
-.portfolio-section {
-  padding-top: 3rem;
-}
-
-.page-section-3 {
-  padding: 15rem 0;
-}
-
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #fff;
@@ -10145,27 +10135,54 @@ hr.light {
   }
 }
 
-header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 4.5rem);
-  /* 
-  image credit: https://unsplash.com/@jessbaileydesigns?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jess Bailey</a> on <a href="https://unsplash.com/s/photos/computer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText
-  */
-  background: linear-gradient(to bottom, #47425ccc 0%, #47425ccc 100%), url("../assets/img/bg-masthead-1.jpg");
-  background-position: center;
+/* for mobile devices */
+@media (max-width: 480px) {
+  header.masthead {
+    height: 100vh;
+    /* Image Credit: SNOW: https://unsplash.com/@patresinger */
+    background: linear-gradient(to bottom, #47425ccc 0%, #47425ccc 100%), url("../assets/img/mobile-masthead.jpg");
+    background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  }
+}
+
+/* for tablets */
+@media (min-width: 481px) and (max-width: 991px) {
+  header.masthead {
+    height: 100vh;
+    /* Image credit: https://unsplash.com/@jonforson */
+    background: linear-gradient(to bottom, #47425ccc 0%, #47425ccc 100%), url("../assets/img/tablet-masthead.jpg");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  }
+}
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+
 }
 header.masthead h1 {
   font-size: 2.25rem;
 }
+
+/* desktops */
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
     min-height: 40rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
+    /* image credit: https://unsplash.com/@jessbaileydesigns */
+  background: linear-gradient(to bottom, #47425ccc 0%, #47425ccc 100%), url("../assets/img/bg-masthead-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
   }
   header.masthead p {
     font-size: 1.15rem;
