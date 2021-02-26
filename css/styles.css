@@ -162,7 +162,6 @@ a:hover {
     min-height: 40rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
-    /* image credit: https://unsplash.com/@jessbaileydesigns */
   background: linear-gradient(to bottom, #47425ccc 0%, #47425ccc 100%), url("../assets/img/bg-masthead-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
